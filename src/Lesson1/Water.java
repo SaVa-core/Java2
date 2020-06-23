@@ -1,15 +1,18 @@
 package Lesson1;
 
 
-public class Water extends Obstacle {
+public class Water extends Obstacle
+{
     int length;
 
-    public Water(int length) {
+    public Water(int length)
+    {
         this.length = length;
     }
 
     @Override
-    public void doIt(Competitor competitor) {
+    public void doIt(Competitor competitor)
+    {
         competitor.swim(length);
     }
 }
